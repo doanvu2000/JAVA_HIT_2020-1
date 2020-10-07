@@ -26,18 +26,18 @@ public class Bai4
         return a>1;
     }
 
-    public static int prime(int n)
-    {
-        int k =0,s=0;
-        for(int i=2;;i++)
-        {
-            if(SNT(i))
-            {
-                s+=i;
-                k++;
-                if(k > n ) break;
-            }
-        }
-        return s;
-    }
+//     public static int prime(int n)
+//     {
+//         int k =0,s=0;
+//         for(int i=2;;i++)
+//         {
+//             if(SNT(i))
+//             {
+//                 s+=i;
+//                 k++;
+//                 if(k > n ) break;
+//             }
+//         }
+//         return s;
+//     }
 }
